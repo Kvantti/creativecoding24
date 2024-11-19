@@ -5,7 +5,7 @@
 //===============================================
 //GLOBAL VARIABLES
 
-let sketchName = "Slider example";
+let sketchName = "More slider fun";
 // let centerH,centerV;
 // let arrayColumns,arrayRows,cellWidth;
 let elementWidth;
@@ -34,7 +34,7 @@ function setup() {
 //DRAW 
 function draw() {
   let val = slider.value();
-  background(val/2,val,val/2);
+  background(255,0,0);
   fill(200,0,0);
   circle(centerH,centerV,elementWidth);
   label.html("Value is:" +val);
